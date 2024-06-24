@@ -12,5 +12,5 @@ const server = http.createServer((request, response) => {
 	response.end('ok\n');
 });
 
-server.listen(80);
-console.log('Running on localhost:80');
+server.listen(3000);
+console.log('Running on localhost:3000');
